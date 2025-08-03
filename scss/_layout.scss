@@ -1,0 +1,57 @@
+@use 'main' as *;
+
+.hero {
+    background: $primary-300;
+    padding-top: 200px;
+
+    .hero__column {
+        &:first-child {
+            width: 55%;
+        }
+
+        &:last-child {
+            width: 45%;
+        }
+
+        img {
+            max-width: 100%;
+            margin-top: 24px;
+        }
+    }
+
+    .hero__sponsors {
+        color: $secondary-100;
+        font-size: 16px;
+        line-height: 42px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 490px;
+        padding: 24px 0 80px;
+
+        img {
+            margin: 0;
+        }
+    }
+
+    p {
+        color: $secondary-900;
+        line-height: 42px;
+        font-size: 18px;
+        padding: 80px 100px 32px 0;
+    }
+
+    input {
+        width: 100%;
+        max-width: 350px;
+        padding: 10px 30px;
+        border: 0;
+        border-radius: 5px;
+        color: $secondary-900;
+        line-height: 40px;
+        font-size: 16px;
+        margin-right: 20px;
+        box-shadow: 0 5px 15px $primary-900;
+    }
+}
