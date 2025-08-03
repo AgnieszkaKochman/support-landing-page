@@ -1,0 +1,48 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+// COLORS
+$primary-100:   #FFFFFF; // text-3
+$primary-300:   #FFFCF7; // background-hero
+$primary-500:   #F9FAFC; // background-pricing
+$primary-700:   #F6F8FB; // card
+$primary-800:   #E5E5E5; // background-light
+$primary-900:   #D4DAE2;
+$secondary-100: #566272;
+$secondary-200: #353448; // background-dark
+$secondary-300: #343D48; // text-2
+$secondary-500: #2B293E; // background-footer
+$secondary-700: #0F2137; // header2
+$secondary-900: #02073E; // text-1
+$accent:        #FFC059;
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: $secondary-700;
+}
+
+h1 {
+    color: $secondary-900;
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+button {
+    background: $accent;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+    color: $primary-100;
+}
+
+.content-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 32px;
+}
